@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Big Thorn Farm and Brewery</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_beer_list">Beer List</string>
+
+
+</resources>

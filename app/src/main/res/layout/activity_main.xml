@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.udacity.myapplication.MainActivity"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bigthornlogo"
+        android:layout_weight="1"
+        android:background="#ffecb3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "Our Beers"
+        android:id="@+id/beerList"
+        android:textColor= "#000000"
+        android:textSize="16sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#ffecb3"/>
+
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "217.550.3433"
+        android:onClick="dialPhone"
+        android:textColor= "#000000"
+        android:textSize="16sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#ffecb3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "Anna@bigthornfarm.com"
+        android:onClick="sendAnnaEmail"
+        android:textColor= "#000000"
+        android:textSize="16sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#ffecb3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "Send Text Message"
+        android:onClick="sendText"
+        android:textColor= "#000000"
+        android:textSize="16sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#ffecb3"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/clink"
+        android:layout_weight="2"
+        android:scaleType="centerCrop"/>
+</LinearLayout>
